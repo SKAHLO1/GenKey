@@ -1,0 +1,13 @@
+{
+  "name": "genkey-script-service",
+  "version": "1.0.0",
+  "description": "Script to extract private key from GenLayer keystore",
+  "main": "extract-private-key.js",
+  "type": "module",
+  "scripts": {
+    "start": "node extract-private-key.js"
+  },
+  "dependencies": {
+    "@noble/hashes": "^1.3.3"
+  }
+}
